@@ -14,12 +14,13 @@
         <input type="radio" name="shape" value="rectangle" onclick="setShape('rectangle')"> Rectangle
         <input type="radio" name="shape" value="line" onclick="setShape('line')"> Line
     </label>
-</div>
+
 <label>
     Select Color:
     <input type="color" id="colorPicker" value="#000000" onchange="setColor(this.value)">
 </label>
 <button id="clear"> Clear Canvas</button>
+</div>
 <canvas id="drawingCanvas" width="800" height="800"></canvas>
 <script src="app.js"></script>
 
